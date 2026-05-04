@@ -1,12 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ai_researcher',
+    name='revisa',
     version='0.1.0',
-    description='AI-powered research paper generation and review',
-    author='AI Research Team',
-    author_email='zhuminjun@westlake.edu.cn',
-    url='https://github.com/zhu-minjun/Researcher',
+    description='RevISA - Agentes de IA na Avaliacao Cientifica de Publicacoes em Periodicos Brasileiros',
+    author='Felipe Amaro',
+    url='https://github.com/ResearAI/Researcher',
     packages=find_packages(),
     install_requires=[
         'torch>=2.1',
