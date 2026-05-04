@@ -1,4 +1,4 @@
-# AI-powered Research and Review Agents [ICLR 2025 / ACL 2025]
+#RevISA - Revisão Inteligente de Submissões Acadêmicas
 
 <div align="center">
   
