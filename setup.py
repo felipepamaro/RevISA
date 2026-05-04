@@ -8,10 +8,17 @@ setup(
     url='https://github.com/ResearAI/Researcher',
     packages=find_packages(),
     install_requires=[
+        'torch>=2.1',
         'transformers>=4.48.2',
-        'vllm>=0.7.2',
+        'accelerate>=0.30',
         'bibtexparser',
+        'requests',
     ],
+    extras_require={
+        'vllm': ['vllm>=0.7.2'],
+        'flash-attn': ['flash-attn>=2.5'],
+        'quantization': ['bitsandbytes>=0.43'],
+    },
     classifiers=[
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
