@@ -1,4 +1,4 @@
-#RevISA - Revisão Inteligente de Submissões Acadêmicas
+# RevISA - Revisão Inteligente de Submissões Acadêmicas
 
 <div align="center">
   
